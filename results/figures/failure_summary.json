@@ -1,0 +1,128 @@
+{
+  "centralized": {
+    "0.0": {
+      "n_runs": 250,
+      "success_rate": 1.0,
+      "mean_total_latency_ms": 0.052,
+      "mean_total_tokens": 2678.4,
+      "mean_total_orchestrator_calls": 7.0,
+      "mean_total_llm_calls": 13.0
+    },
+    "0.05": {
+      "n_runs": 250,
+      "success_rate": 0.96,
+      "mean_total_latency_ms": 16.056,
+      "mean_total_tokens": 2687.4,
+      "mean_total_orchestrator_calls": 7.04,
+      "mean_total_llm_calls": 13.04
+    },
+    "0.1": {
+      "n_runs": 250,
+      "success_rate": 0.8,
+      "mean_total_latency_ms": 120.036,
+      "mean_total_tokens": 2748.4,
+      "mean_total_orchestrator_calls": 7.2,
+      "mean_total_llm_calls": 13.2
+    },
+    "0.2": {
+      "n_runs": 250,
+      "success_rate": 0.64,
+      "mean_total_latency_ms": 360.016,
+      "mean_total_tokens": 2894.4,
+      "mean_total_orchestrator_calls": 7.36,
+      "mean_total_llm_calls": 13.36
+    },
+    "0.3": {
+      "n_runs": 250,
+      "success_rate": 0.68,
+      "mean_total_latency_ms": 448.02,
+      "mean_total_tokens": 2950.4,
+      "mean_total_orchestrator_calls": 7.32,
+      "mean_total_llm_calls": 13.32
+    }
+  },
+  "sequential": {
+    "0.0": {
+      "n_runs": 250,
+      "success_rate": 1.0,
+      "mean_total_latency_ms": 0.032,
+      "mean_total_tokens": 1856.6,
+      "mean_total_orchestrator_calls": 0.0,
+      "mean_total_llm_calls": 6.0
+    },
+    "0.05": {
+      "n_runs": 250,
+      "success_rate": 0.96,
+      "mean_total_latency_ms": 16.016,
+      "mean_total_tokens": 1865.6,
+      "mean_total_orchestrator_calls": 0.04,
+      "mean_total_llm_calls": 6.04
+    },
+    "0.1": {
+      "n_runs": 250,
+      "success_rate": 0.8,
+      "mean_total_latency_ms": 120.0,
+      "mean_total_tokens": 1926.6,
+      "mean_total_orchestrator_calls": 0.2,
+      "mean_total_llm_calls": 6.2
+    },
+    "0.2": {
+      "n_runs": 250,
+      "success_rate": 0.64,
+      "mean_total_latency_ms": 360.012,
+      "mean_total_tokens": 2072.6,
+      "mean_total_orchestrator_calls": 0.36,
+      "mean_total_llm_calls": 6.36
+    },
+    "0.3": {
+      "n_runs": 250,
+      "success_rate": 0.68,
+      "mean_total_latency_ms": 448.004,
+      "mean_total_tokens": 2128.6,
+      "mean_total_orchestrator_calls": 0.32,
+      "mean_total_llm_calls": 6.32
+    }
+  },
+  "obd": {
+    "0.0": {
+      "n_runs": 250,
+      "success_rate": 1.0,
+      "mean_total_latency_ms": 0.64,
+      "mean_total_tokens": 8431.2,
+      "mean_total_orchestrator_calls": 2.0,
+      "mean_total_llm_calls": 9.0
+    },
+    "0.05": {
+      "n_runs": 250,
+      "success_rate": 0.96,
+      "mean_total_latency_ms": 16.54,
+      "mean_total_tokens": 8440.2,
+      "mean_total_orchestrator_calls": 2.04,
+      "mean_total_llm_calls": 9.04
+    },
+    "0.1": {
+      "n_runs": 250,
+      "success_rate": 0.8,
+      "mean_total_latency_ms": 120.42,
+      "mean_total_tokens": 8501.2,
+      "mean_total_orchestrator_calls": 2.2,
+      "mean_total_llm_calls": 9.2
+    },
+    "0.2": {
+      "n_runs": 250,
+      "success_rate": 0.64,
+      "mean_total_latency_ms": 360.532,
+      "mean_total_tokens": 8647.2,
+      "mean_total_orchestrator_calls": 2.36,
+      "mean_total_llm_calls": 9.36
+    },
+    "0.3": {
+      "n_runs": 250,
+      "success_rate": 0.68,
+      "mean_total_latency_ms": 448.488,
+      "mean_total_tokens": 8703.2,
+      "mean_total_orchestrator_calls": 2.32,
+      "mean_total_llm_calls": 9.32
+    }
+  }
+}

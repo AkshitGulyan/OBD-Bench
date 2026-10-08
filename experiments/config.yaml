@@ -1,0 +1,28 @@
+model:
+  provider: openai
+  name: ${OPENAI_MODEL}
+  base_url: ${OPENAI_BASE_URL}
+
+experiment:
+  repetitions: 20
+  temperature: 0
+
+workflows:
+  agent_counts:
+    - 2
+    - 4
+    - 6
+    - 8
+    - 10
+  architectures:
+    - centralized
+    - sequential
+    - obd
+
+pricing:
+  input_cost_per_1m_tokens: 0.0
+  output_cost_per_1m_tokens: 0.0
+
+failure:
+  enabled: false
+  probability: 0.0

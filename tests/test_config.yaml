@@ -1,0 +1,6 @@
+model:
+  provider: openai
+  name: ${OPENAI_MODEL}
+experiment:
+  repetitions: 20
+  temperature: 0

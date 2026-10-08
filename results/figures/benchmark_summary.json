@@ -1,0 +1,155 @@
+{
+  "centralized": {
+    "n_runs": 1250,
+    "sizes": [
+      2,
+      4,
+      6,
+      8,
+      10
+    ],
+    "mean_total_orchestrator_calls": 7.184,
+    "mean_total_llm_calls": 13.184,
+    "mean_total_tokens": 2791.8,
+    "success_rate": 0.816,
+    "by_size": {
+      "2": {
+        "n_runs": 250,
+        "mean_total_orchestrator_calls": 3.2,
+        "mean_total_llm_calls": 5.2,
+        "mean_total_tokens": 752.4,
+        "success_rate": 0.8
+      },
+      "4": {
+        "n_runs": 250,
+        "mean_total_orchestrator_calls": 5.08,
+        "mean_total_llm_calls": 9.08,
+        "mean_total_tokens": 1498.2,
+        "success_rate": 0.92
+      },
+      "6": {
+        "n_runs": 250,
+        "mean_total_orchestrator_calls": 7.16,
+        "mean_total_llm_calls": 13.16,
+        "mean_total_tokens": 2544.2,
+        "success_rate": 0.84
+      },
+      "8": {
+        "n_runs": 250,
+        "mean_total_orchestrator_calls": 9.32,
+        "mean_total_llm_calls": 17.32,
+        "mean_total_tokens": 3913.4,
+        "success_rate": 0.68
+      },
+      "10": {
+        "n_runs": 250,
+        "mean_total_orchestrator_calls": 11.16,
+        "mean_total_llm_calls": 21.16,
+        "mean_total_tokens": 5250.8,
+        "success_rate": 0.84
+      }
+    }
+  },
+  "sequential": {
+    "n_runs": 1250,
+    "sizes": [
+      2,
+      4,
+      6,
+      8,
+      10
+    ],
+    "mean_total_orchestrator_calls": 0.184,
+    "mean_total_llm_calls": 6.184,
+    "mean_total_tokens": 1970.0,
+    "success_rate": 0.816,
+    "by_size": {
+      "2": {
+        "n_runs": 250,
+        "mean_total_orchestrator_calls": 0.2,
+        "mean_total_llm_calls": 2.2,
+        "mean_total_tokens": 450.6,
+        "success_rate": 0.8
+      },
+      "4": {
+        "n_runs": 250,
+        "mean_total_orchestrator_calls": 0.08,
+        "mean_total_llm_calls": 4.08,
+        "mean_total_tokens": 936.4,
+        "success_rate": 0.92
+      },
+      "6": {
+        "n_runs": 250,
+        "mean_total_orchestrator_calls": 0.16,
+        "mean_total_llm_calls": 6.16,
+        "mean_total_tokens": 1722.4,
+        "success_rate": 0.84
+      },
+      "8": {
+        "n_runs": 250,
+        "mean_total_orchestrator_calls": 0.32,
+        "mean_total_llm_calls": 8.32,
+        "mean_total_tokens": 2831.6,
+        "success_rate": 0.68
+      },
+      "10": {
+        "n_runs": 250,
+        "mean_total_orchestrator_calls": 0.16,
+        "mean_total_llm_calls": 10.16,
+        "mean_total_tokens": 3909.0,
+        "success_rate": 0.84
+      }
+    }
+  },
+  "obd": {
+    "n_runs": 1250,
+    "sizes": [
+      2,
+      4,
+      6,
+      8,
+      10
+    ],
+    "mean_total_orchestrator_calls": 2.184,
+    "mean_total_llm_calls": 9.184,
+    "mean_total_tokens": 8544.6,
+    "success_rate": 0.816,
+    "by_size": {
+      "2": {
+        "n_runs": 250,
+        "mean_total_orchestrator_calls": 2.2,
+        "mean_total_llm_calls": 5.2,
+        "mean_total_tokens": 1773.2,
+        "success_rate": 0.8
+      },
+      "4": {
+        "n_runs": 250,
+        "mean_total_orchestrator_calls": 2.08,
+        "mean_total_llm_calls": 7.08,
+        "mean_total_tokens": 4104.2,
+        "success_rate": 0.92
+      },
+      "6": {
+        "n_runs": 250,
+        "mean_total_orchestrator_calls": 2.16,
+        "mean_total_llm_calls": 9.16,
+        "mean_total_tokens": 7516.2,
+        "success_rate": 0.84
+      },
+      "8": {
+        "n_runs": 250,
+        "mean_total_orchestrator_calls": 2.32,
+        "mean_total_llm_calls": 11.32,
+        "mean_total_tokens": 12032.2,
+        "success_rate": 0.68
+      },
+      "10": {
+        "n_runs": 250,
+        "mean_total_orchestrator_calls": 2.16,
+        "mean_total_llm_calls": 13.16,
+        "mean_total_tokens": 17297.2,
+        "success_rate": 0.84
+      }
+    }
+  }
+}

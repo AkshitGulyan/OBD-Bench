@@ -1,0 +1,94 @@
+[
+  {
+    "task_id": "task_001",
+    "category": "reasoning_chain",
+    "input": "Sequence of values: 2, 4, 6. Compute the total, the average, and explain the pattern.",
+    "expected_properties": [
+      "total",
+      "average",
+      "even_sequence"
+    ]
+  },
+  {
+    "task_id": "task_002",
+    "category": "reasoning_chain",
+    "input": "Extract the numbers 7, 9, 11 and determine the next value in the sequence, then explain the step size.",
+    "expected_properties": [
+      "next_value",
+      "step_size"
+    ]
+  },
+  {
+    "task_id": "task_003",
+    "category": "transform_chain",
+    "input": "Take the text 'alpha beta gamma' and convert it to uppercase, then sort the tokens alphabetically.",
+    "expected_properties": [
+      "uppercase",
+      "sorted_tokens"
+    ]
+  },
+  {
+    "task_id": "task_004",
+    "category": "transform_chain",
+    "input": "Given the list [5, 10, 15, 20], compute the sum and indicate whether the numbers are multiples of five.",
+    "expected_properties": [
+      "sum",
+      "multiples_of_five"
+    ]
+  },
+  {
+    "task_id": "task_005",
+    "category": "compare_chain",
+    "input": "Compare the values 12 and 18. State which is greater, the difference, and whether the greater value is even.",
+    "expected_properties": [
+      "greater_value",
+      "difference",
+      "even_check"
+    ]
+  },
+  {
+    "task_id": "task_006",
+    "category": "compare_chain",
+    "input": "Compare 'red', 'green', and 'blue' by alphabetical order and identify the first item in sorted order.",
+    "expected_properties": [
+      "sorted_order",
+      "first_item"
+    ]
+  },
+  {
+    "task_id": "task_007",
+    "category": "research_chain",
+    "input": "Research the claim that 3 + 5 = 8 and provide the exact arithmetic validation and a short explanation.",
+    "expected_properties": [
+      "arithmetic_result",
+      "explanation"
+    ]
+  },
+  {
+    "task_id": "task_008",
+    "category": "research_chain",
+    "input": "Review the series 1, 3, 6, 10 and identify the pattern behind the increments.",
+    "expected_properties": [
+      "pattern",
+      "increment_rule"
+    ]
+  },
+  {
+    "task_id": "task_009",
+    "category": "validation_chain",
+    "input": "Validate whether the values 9, 18, 27 form a consistent arithmetic sequence with a common difference of 9.",
+    "expected_properties": [
+      "common_difference",
+      "sequence_valid"
+    ]
+  },
+  {
+    "task_id": "task_010",
+    "category": "validation_chain",
+    "input": "Check the claim that the numbers 2, 4, 8, 16 are powers of two and identify the exponent pattern.",
+    "expected_properties": [
+      "powers_of_two",
+      "exponent_pattern"
+    ]
+  }
+]
